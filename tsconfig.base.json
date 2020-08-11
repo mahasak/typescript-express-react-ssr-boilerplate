@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    
+    "lib": ["dom", "dom.iterable","es6"],
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "outDir": "dist"
+  },
+  "exclude": [
+    "dist",
+    "coverage",
+    "node_modules",
+    "dist",
+    "ssr.config.js"
+  ]
+}
